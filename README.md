@@ -1,0 +1,2 @@
+# loctool
+:v
