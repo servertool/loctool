@@ -189,6 +189,7 @@ Nếu có vấn đề gì vui lòng liên hệ admin\n";
  
     echo "\033[1;37m\033[1;97m ┣━━━━\033[1;91m Trao Đổi Sub \033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n";
     echo "\033[1;37m ┃ ~\033[1;36m[\033[1;95m 1.1 \033[0m\033[1;36m]\033[1;36m Tool Trao Đổi Sub Đa Cookie           \033[1;37m┃\n"; 
+    echo "\033[1;37m ┃ ~\033[1;36m[\033[1;95m 1.2 \033[0m\033[1;36m]\033[1;36m Tool Trao Đổi Sub Đa Token            \033[1;37m┃\n";
     echo "\033[1;37m\033[1;97m ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n"; 
     echo "\n";       
 
@@ -197,6 +198,10 @@ Nếu có vấn đề gì vui lòng liên hệ admin\n";
     echo "\033[1;37m ┃ ~\033[1;36m[\033[1;95m 2.2 \033[0m\033[1;36m] \033[1;36m Tool Tương Tác Chéo Đa Token         \033[1;37m┃\n";
     echo "\033[1;37m\033[1;97m ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n"; 
     echo "\n";    
+
+    echo "\033[1;37m\033[1;97m ┣━━━━\033[1;91m Tool Khác      \033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n";
+    echo "\033[1;37m ┃ ~\033[1;36m[\033[1;95m 3.1 \033[0m\033[1;36m] \033[1;36m Tool Lọc Bạn Bè                      \033[1;37m┃\n";
+    echo "\033[1;37m\033[1;97m ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n";
         echo "$red Lưu Ý: \033[1;33mPhải Nhập Đúng Lệnh Để Vào Tool
     Ví Dụ : Tool Trao Đổi Sub Đa Cookie Min/Max => Gõ Là 1.1
 
@@ -211,8 +216,11 @@ if ($nhaptool2 == '1.1'){
     if(!$sock = @fsockopen('www.google.com', 80)) { 
         echo 'Vui lòng bật kết nối mạng'; exit(); } 
         eval(file_get_contents('https://raw.githubusercontent.com/servertool/loctool/main/tdsck.php'));}
+else if ($nhaptool2 == '1.2'){ eval(file_get_contents('https://raw.githubusercontent.com/servertool/loctool/main/tdstk.php')); }
 // Tương Tác Chéo 
 else if ($nhaptool2 == '2.1'){ eval(file_get_contents('https://raw.githubusercontent.com/servertool/loctool/main/ttcck.php')); }
 else if ($nhaptool2 == '2.2'){ eval(file_get_contents('https://raw.githubusercontent.com/servertool/loctool/main/ttctk.php')); }
+// Lọc Bạn Bè
+else if ($nhaptool2 == '3.1'){ eval(file_get_contents('https://raw.githubusercontent.com/servertool/loctool/main/loc_bb.php')); }
 ?>
             
