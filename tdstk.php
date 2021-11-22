@@ -63,7 +63,7 @@ $xuhientai = $info["data"]["xu"];
 @system('clear');
 echo $bannertoan;
 echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Bạn đang dùng tool:$vang Tds Token\n";
-echo "\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m => ".$do."Bản Quyền:$trang Toàn-Tool\n";
+echo "\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m => ".$do."Bản Quyền:$trang Lộc-Tool\n";
 echo $thanhngang;
 echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Tài Khoản TĐS ".$vang."".$user."\n";
 echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Số Xu Hiện Tại: ".$vang."".$xuhientai."\n";
@@ -124,7 +124,7 @@ $urlcauhinh = "https://traodoisub.com/api/?fields=run&id=$idfb&access_token=$tok
 $cauhinh = api($urlcauhinh);
 if ($cauhinh["data"]["msg"] == "Cấu hình thành công!") {
 	echo $thanhngang;
-    echo $do."Toàn-Tool -$luc Cấu Hình: ".$vang.$tenfb." ".$res."\n";
+    echo $do."Lộc-Tool -$luc Cấu Hình: ".$vang.$tenfb." ".$res."\n";
     echo $thanhngang;
 } else {
     echo $do."Cấu hình thất bại token có thể bị die\n";
@@ -223,7 +223,7 @@ while (true) {
 if ( $stop == "n" ){
 	$dungtool = 999999;
     echo $trang."Bạn Đã Chọn Dừng Tool Số Xu Của Bạn Là : ".$BWhite.$xu."\n";
-    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Toàn Tool\n";
+    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Lộc Tool\n";
     exit;}
  else {
 	echo $luc."Bạn Muốn Chạy Thêm Bao Nhiệm Nhiệm Vụ Nữa : $BWhite";
@@ -283,7 +283,7 @@ if ( $stop == "n" ){
 if ( $stop == "n" ){
 	$dungtool = 999999;
     echo $trang."Bạn Đã Chọn Dừng Tool Số Xu Của Bạn Là : ".$BWhite.$xu."\n";
-    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Toàn Tool\n";
+    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Lộc Tool\n";
     exit;}
  else {
 	echo $luc."Bạn Muốn Chạy Thêm Bao Nhiệm Nhiệm Vụ Nữa : $BWhite";
@@ -345,7 +345,7 @@ if ( $stop == "n" ){
 if ( $stop == "n" ){
 	$dungtool = 999999;
     echo $trang."Bạn Đã Chọn Dừng Tool Số Xu Của Bạn Là : ".$BWhite.$xu."\n";
-    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Toàn Tool\n";
+    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Lộc Tool\n";
     exit;}
  else {
 	echo $luc."Bạn Muốn Chạy Thêm Bao Nhiệm Nhiệm Vụ Nữa : $BWhite";
@@ -404,7 +404,7 @@ if ( $stop == "n" ){
 if ( $stop == "n" ){
 	$dungtool = 999999;
     echo $trang."Bạn Đã Chọn Dừng Tool Số Xu Của Bạn Là : ".$BWhite.$xu."\n";
-    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Toàn Tool\n";
+    echo $luc."Cảm Ơn Bạn Đã Sử Dụng Tool Của Lộc Tool\n";
     exit;}
  else {
 	echo $luc."Bạn Muốn Chạy Thêm Bao Nhiệm Nhiệm Vụ Nữa : $BWhite";
@@ -593,7 +593,7 @@ function delay($delay) {
     $time = $delay; 
     for ( $x = $time; $x--; $x ) {
       echo "\r                                                      \r";
-       echo "\r \033[1;32m[Toàn-Tool]\033[1;31m Làm job tiếp sau >\033[1;93m $x\033[1;91m |";
+       echo "\r \033[1;32m[Lộc-Tool]\033[1;31m Làm job tiếp sau >\033[1;93m $x\033[1;91m |";
 usleep(133333);
 echo "\033[1;31m ¤";
 usleep(133333);
