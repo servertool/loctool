@@ -179,6 +179,10 @@ if($keyy == ''){
       else if($keyy == 'tudeptrai')
       {
              echo $BGreen."Key Hợp Lệ\n";
+             echo $red."Người Mua Key : Tú";
+             echo $luc."Ngày Mua Key : 26/11";
+             echo $luc."Ngày Hết Hạn : 26/1";
+             sleep(2);
       }
       else 
       {
