@@ -155,7 +155,7 @@ for($j = 3;$j> 0;$j--){
 }
 system("termux-open-url ".$result["shortenedUrl"]."");
 echo $BWhite."- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
-    echo " \033[1;33m[\033[1;35mWARNING\033[1;33m] \033[1;32m Nhập Key Miễn Phí Đã Lấy : $BWhite";
+    echo " \033[1;33m[\033[1;35mWARNING\033[1;33m] \033[1;32m Nhập Key Miễn Phí Đã Lấy Hoặc Key Mua: $BWhite";
     $keyy = trim(fgets(STDIN));
     }
 if ($_check =='1'){
