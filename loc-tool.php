@@ -180,7 +180,7 @@ if($keyy == ''){
       {
              echo $BGreen."Key Hợp Lệ\n";
       }
-      else if
+      else 
       {
            echo $BRed."Key Sai Rồi, Vào Link Phía Trên Để Lấy Key\n";
            exit;
