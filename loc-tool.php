@@ -176,7 +176,11 @@ if($keyy == ''){
              fwrite($mf, $keyy);
              fclose($mf);
       }
-      else
+      else if($keyy == 'tudeptrai')
+      {
+             echo $BGreen."Key Hợp Lệ\n";
+      }
+      else if
       {
            echo $BRed."Key Sai Rồi, Vào Link Phía Trên Để Lấy Key\n";
            exit;
