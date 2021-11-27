@@ -186,7 +186,7 @@ if($keyy == ''){
              echo $yellow."- - - - - - - - - - - -\n";
              sleep(2);
       }
-      else if($keyy == 'tudeptrai')
+      else if($keyy == 'tho123')
       {
              echo $yellow."- - - - - - - - - - - -\n";
              echo $BGreen."Key Hợp Lệ\n";
