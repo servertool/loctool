@@ -101,7 +101,8 @@ $bannertoan = "
 \033[1;37m  ┃ Facebook : fb.com/100054999610646
 \033[1;36m  ┃ Zalo : 0904755743
 \033[1;37m  ┃ Group Zalo : https://zalo.me/g/etdafm797
-\033[1;36m  ┃ ( Xin Anh EM Đừng Decode Tool Mình Ạ )
+\033[1;36m  ┃ Mua Like Sub Tại loclikesub.xyz 
+\033[1;37m  ┃ ( Xin Anh EM Đừng Decode Tool Mình Ạ )
 \033[1;37m  ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ";
 
