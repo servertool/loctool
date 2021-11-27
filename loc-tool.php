@@ -186,6 +186,16 @@ if($keyy == ''){
              echo $yellow."- - - - - - - - - - - -\n";
              sleep(2);
       }
+      else if($keyy == 'tudeptrai')
+      {
+             echo $yellow."- - - - - - - - - - - -\n";
+             echo $BGreen."Key Hợp Lệ\n";
+             echo $red."Người Mua Key : Thỏ\n";
+             echo $luc."Ngày Mua Key : 27/11\n";
+             echo $luc."Ngày Hết Hạn : 27/1\n";
+             echo $yellow."- - - - - - - - - - - -\n";
+             sleep(2);
+      }
       else 
       {
            echo $BRed."Key Sai Rồi, Vào Link Phía Trên Để Lấy Key\n";
